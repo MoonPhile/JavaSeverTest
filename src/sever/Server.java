@@ -24,11 +24,11 @@ public class Server extends JFrame{
 		doProcess();
 	}
 	
-	//서버 초기화
+
 	private void initServer() throws IOException{
 		serverSocket = new ServerSocket(port); //서버 생성
 		randomNumber = (int)((Math.random()*50)+1); //랜덤숫자 생성
-	}
+	}//서버 초기화
 	
 
 	private void doProcess() throws IOException{
