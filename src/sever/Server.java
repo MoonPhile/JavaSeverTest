@@ -40,7 +40,7 @@ public class Server extends JFrame{
 			
 			sendMessage(" 서버에 접속되었습니다.  ");
             sendMessage(" 게임을 시작합니다 ");
-            textArea.append(String.format("정답 %s \n", randomNumber));
+            textArea.append(String.format("정답 %s \n", randomNumber)); //정답 확인용
             while (true) {
 
                 String receiveMsg = receiveMessage();
